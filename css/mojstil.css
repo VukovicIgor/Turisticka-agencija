@@ -1,0 +1,186 @@
+body{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul.navbar-nav>li>a{
+    letter-spacing: 0.1rem;
+    font-size: x-large;
+	text-transform: uppercase;
+}
+
+.navbar .nav-item .dropdown-menu{ 
+    display: none; 
+}
+.navbar .nav-item:hover .dropdown-menu{ 
+    display: block; 
+}
+.navbar .nav-item .dropdown-menu{ 
+    margin-top:0; 
+}
+.carousel-item{
+    height: 600px;
+} 
+.carousel-item img{
+    height: 600px;
+}
+.carousel-caption p {
+    font-size: 2em;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0px;
+    background-color: #c3f7c8;
+}
+section{
+    margin-top: 4rem;
+}
+#ukratko{
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+}
+footer{
+    background-color:#c3f7c8;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+}
+footer a{
+	color: black;
+	padding: 0.2rem;
+	letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-style: initial
+}
+footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+footer p{
+	letter-spacing: 0.2rem;
+	text-transform: uppercase;
+}
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+}
+#onama{
+    font-size: 20px;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    background-color: white;
+}
+#onama ol{
+    padding-left: 1.8rem;
+    padding-top: 0rem;
+}
+#onama p{
+    text-align: justify;
+}
+#onama a{
+    text-decoration-line:underline;
+    color: brown;
+    text-transform: uppercase;
+}
+#onama a:hover{
+    color: #c3f7c8;
+}
+#ukratko h2{
+    letter-spacing: 0.5rem;
+    font-size: 50px;
+}
+#onamalogo{
+    width: 50%;
+    height: 50%;
+}
+#kontakt{
+    font-size: 50px;
+}
+.btn.btn-outline-dark{
+    padding: 1rem;
+    background-color:#c3f7c8;
+    color: black;
+    border: 0;
+}
+.btn.btn-outline-dark:hover{
+    background-color:aqua;
+    color: black;
+
+}
+textarea{
+    height: 106px;
+}
+#lista-kontakti{
+    font-size: 20px;
+}
+#sedista{
+    font-size: 25px;
+}
+.photo-gallery {
+    color:#313437;
+    background-color:#fff;
+}
+  
+.photo-gallery p {
+    color:#7d8285;
+}
+  
+.photo-gallery h2 {
+    font-weight:bold;
+    margin-bottom:40px;
+    padding-top:40px;
+    color:inherit;
+}
+.photo-gallery .intro {
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px;
+}
+  
+.photo-gallery .intro p {
+    margin-bottom:0;
+}
+  
+.photo-gallery .photos {
+    padding-bottom:20px;
+}
+  
+.photo-gallery .item {
+    padding-bottom:30px;
+}
+.dropdown-menu .dropdown-item.active{
+    background-color: #c3f7c8;
+    color: black;
+}
+.dropdown-menu .dropdown-item:active{
+    background-color: #c3f7c8;
+    color: black;
+}
+.intro .text-center{
+    letter-spacing: 0.5rem;
+}
+#bezefekta{
+    text-decoration-line:none !important;
+    color:black !important;
+}
+#cestapitanja .card{
+    background-color: #c3f7c8;
+}
+#cestapitanja .card-body{
+    background-color: white;
+}
+#cestapitanja p{
+    color: black;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+#mapasajta a{
+    color: black;
+    font-size: 25px;
+}
+#mapasajta a:hover{
+    color: #c3f7c8;
+}
